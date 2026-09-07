@@ -99,6 +99,7 @@ where a family lives, the age of the child, and the type of care used.
 |---|---|
 | `analysis` | Jupyter Notebook containing the Python analysis |
 | `data` | Compressed National Database of Childcare Prices dataset |
+| `images` | Dashboard and other portfolio preview images |
 | `presentations` | Dashboard and narrative presentation files |
 | `reports` | Complete written analysis in PDF format |
 
