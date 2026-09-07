@@ -1,4 +1,5 @@
 # Childcare Costs Across the United States
+![Childcare affordability dashboard](images/childcare_affordability_dashboard.png)
 
 ## Project Overview
 
