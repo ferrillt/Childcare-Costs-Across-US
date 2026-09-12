@@ -54,14 +54,15 @@ The analysis was completed in Python using a Jupyter Notebook. The
 process included:
 
 1. Loading and reviewing the childcare dataset.
-2. Examining missing values.
-3. Comparing mean and median weekly prices.
-4. Comparing center-based care with family childcare.
-5. Calculating average prices by state and age group.
-6. Identifying higher-cost states.
-7. Assigning states to geographic regions.
-8. Comparing regional childcare-price patterns.
-9. Creating charts for a dashboard, presentation, and infographic.
+2. Converting currency-formatted price fields into numeric values.
+3. Examining missing values.
+4. Comparing mean and median weekly prices.
+5. Comparing center-based care with family childcare.
+6. Calculating average prices by state and age group.
+7. Identifying higher-cost states.
+8. Assigning states to geographic regions.
+9. Comparing regional childcare-price patterns.
+10. Creating charts for the dashboard, presentations, and infographic.
 
 ## Principal Findings
 
@@ -105,7 +106,7 @@ where a family lives, the age of the child, and the type of care used.
 
 ## Project Materials
 
-- [View the Jupyter Notebook](analysis/Childcare_Analysis_JupyterNotebookCode.ipynb)
+- [View the Jupyter Notebook](analysis/Childcare_Analysis.ipynb)
 - [View the written analysis](reports/Childcare_Costs_Across_US_analysis.pdf)
 - [View the narrative presentation](presentations/Childcare_Costs_Economic_Strain.pptx)
 - [View the dashboard presentation](presentations/Dashboard_Childcare_Affordability.pptx)
@@ -116,25 +117,29 @@ where a family lives, the age of the child, and the type of care used.
 
 Install Python 3 and the required packages:
 
-    pip install pandas numpy matplotlib seaborn jupyter
+```
+pip install pandas numpy matplotlib seaborn jupyter
+```
 
 Clone the repository:
 
-    git clone https://github.com/ferrillt/Childcare-Costs-Across-US.git
+```
+git clone https://github.com/ferrillt/Childcare-Costs-Across-US.git
+```
 
-Move into the repository:
+Move into the notebook’s folder:
 
-    cd Childcare-Costs-Across-US
+```
+cd Childcare-Costs-Across-US/analysis
+```
 
-Start Jupyter Notebook:
+Start Jupyter Notebook and open the analysis:
 
-    jupyter notebook
+```
+jupyter notebook Childcare_Analysis.ipynb
+```
 
-Open:
-
-    analysis/Childcare_Analysis_JupyterNotebookCode.ipynb
-
-Run the notebook cells in order.
+Run the notebook cells in order. The notebook reads the compressed dataset from the adjacent `data` folder, so the ZIP file does not need to be extracted.
 
 ## Assumptions and Limitations
 
