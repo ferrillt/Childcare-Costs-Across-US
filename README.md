@@ -62,7 +62,7 @@ process included:
 7. Identifying higher-cost states.
 8. Assigning states to geographic regions.
 9. Comparing regional childcare-price patterns.
-10. Creating charts for the dashboard, presentations, and infographic.
+10. Creating charts for the dashboard and presentations.
 
 ## Principal Findings
 
@@ -117,7 +117,7 @@ where a family lives, the age of the child, and the type of care used.
 
 Install Python 3 and the required packages:
 
-```
+```bash
 pip install pandas numpy matplotlib seaborn jupyter
 ```
 
