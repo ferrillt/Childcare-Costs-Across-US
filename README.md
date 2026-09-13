@@ -81,8 +81,7 @@ The analysis produced several notable findings:
 - Family childcare prices were highest in the Northeast and lowest
   in the South in the regional comparison.
 
-These findings demonstrate that childcare affordability depends on
-where a family lives, the age of the child, and the type of care used.
+These findings demonstrate that childcare prices vary according to location, the age of the child, and the type of care used. Assessing affordability would also require household-income and related financial information.  
 
 ## Technologies
 
