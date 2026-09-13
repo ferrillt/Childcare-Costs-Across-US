@@ -115,31 +115,39 @@ where a family lives, the age of the child, and the type of care used.
 
 ### Requirements
 
-Install Python 3 and the required packages:
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
+Python 3 is required to run the analysis.
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/ferrillt/Childcare-Costs-Across-US.git
 ```
 
-Move into the notebook’s folder:
+Move into the repository:
 
+```bash
+cd Childcare-Costs-Across-US
 ```
-cd Childcare-Costs-Across-US/analysis
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Move into the notebook folder:
+
+```bash
+cd analysis
 ```
 
 Start Jupyter Notebook and open the analysis:
 
-```
+```bash
 jupyter notebook Childcare_Analysis.ipynb
 ```
 
-Run the notebook cells in order. The notebook reads the compressed dataset from the adjacent `data` folder, so the ZIP file does not need to be extracted.
+Run the notebook cells in order. The notebook reads `nationaldatabaseofchildcareprices.zip` directly from the adjacent `data` folder, so the ZIP file does not need to be extracted.
 
 ## Assumptions and Limitations
 
