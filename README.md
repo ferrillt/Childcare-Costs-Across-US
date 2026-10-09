@@ -102,6 +102,7 @@ These findings demonstrate that childcare prices vary according to location, the
 | `images` | Dashboard and other portfolio preview images |
 | `presentations` | Dashboard and narrative presentation files |
 | `reports` | Complete written analysis in PDF format |
+| `requirements.txt` | Python packages used by the project |
 
 ## Project Materials
 
