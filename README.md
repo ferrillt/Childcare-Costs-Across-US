@@ -97,9 +97,9 @@ These findings demonstrate that childcare prices vary according to location, the
 
 | Folder | Contents |
 |---|---|
-| `analysis` | Jupyter Notebook containing the Python analysis |
 | `data` | Compressed National Database of Childcare Prices dataset |
 | `images` | Dashboard and other portfolio preview images |
+| `notebook` | Jupyter Notebook containing the Python analysis |
 | `presentations` | Dashboard and narrative presentation files |
 | `reports` | Complete written analysis in PDF format |
 | `requirements.txt` | Python packages used by the project |
