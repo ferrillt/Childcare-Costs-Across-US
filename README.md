@@ -108,8 +108,8 @@ These findings demonstrate that childcare prices vary according to location, the
 
 - [View the Jupyter Notebook](analysis/Childcare_Analysis.ipynb)
 - [View the written analysis](reports/Childcare_Costs_Across_US_analysis.pdf)
-- [View the narrative presentation](presentations/Childcare_Costs_Economic_Strain.pptx)
-- [View the dashboard presentation](presentations/Dashboard_Childcare_Affordability.pptx)
+- [View the narrative presentation](presentations/Childcare_Costs_Economic_Strain.pdf)
+- [View the dashboard presentation](presentations/Dashboard_Childcare_Affordability.pdf)
 
 ## Running the Analysis
 
